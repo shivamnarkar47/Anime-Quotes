@@ -19,7 +19,7 @@
 }
 
 .card{
-	width:50vw;
+	width:90vw;
 	padding: 20px;
 	height: 330px;
 	display: flex;
@@ -33,7 +33,14 @@
 box-shadow: -1px 10px 92px -20px rgba(181,181,181,0.59);
 transition: all ease-in 0.5s;
 }
-
+@media screen and (min-width: 480px) {
+  .card h1{
+	  font-size:2rem;
+	}
+	blockquote{
+		font-size:14px;
+	}
+}
 .card:hover{
 	transform: scale(1.03);
 }
