@@ -33,7 +33,7 @@
 box-shadow: -1px 10px 92px -20px rgba(181,181,181,0.59);
 transition: all ease-in 0.5s;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1000px) {
   .card h1{
 	  font-size:2rem;
 	}
