@@ -19,7 +19,7 @@
 }
 
 .card{
-	width:90vw;
+	width:50vw;
 	padding: 20px;
 	height: 340px;
 	display: flex;
@@ -41,6 +41,7 @@ transition: all ease-in 0.5s;
 		font-size:14px;
 	}
 	.card{
+		width:90vw;
 		height:70vw;
 	}
 }
