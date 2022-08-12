@@ -38,7 +38,7 @@ transition: all ease-in 0.5s;
 	  font-size:2rem;
 	}
 	blockquote{
-		font-size:19px;
+		font-size:2vh;
 	}
 	.card{
 		width:90vw;
@@ -69,4 +69,8 @@ width: 80%;
 
 blockquote{
 	width:80%;
+}
+
+footer{
+	margin:15px;
 }
